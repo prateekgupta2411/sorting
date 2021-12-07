@@ -4,16 +4,16 @@ public class Bubblesort{
 
    public static void main(String[] args)
    {
-      Scanner s = new Scanner(System.in);
+      Scanner sc = new Scanner(System.in);
       
       System.out.print("Enter the Size: ");
-      int n = s.nextInt();
+      int n = sc.nextInt();
       
       int[] arr = new int[n];
       
       System.out.print("Enter " +n+" Elements in Random Order: ");
       for(int i=0; i<n; i++)
-         arr[i] = s.nextInt();
+         arr[i] = sc.nextInt();
       
       System.out.println("\n\nSorting the array...");
       for(int i=0; i<(n-1); i++)
