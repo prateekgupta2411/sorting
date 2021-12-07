@@ -29,8 +29,6 @@ public class Bubblesort{
          }
       }
       System.out.println("The array is sorted successfully!");
-      System.out.println("Prateek Gupta");
-      System.out.println("24");
       
       System.out.println("\nThe new sorted array is:");
       for(int i=0; i<n; i++)
